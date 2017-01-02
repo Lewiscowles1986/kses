@@ -1,0 +1,27 @@
+{
+    "name": "lewiscowles1986/kses",
+    "description": "KSES Update for PHP7",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Lewis Cowles",
+            "email": "lewiscowles@me.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        },
+        "psr-4": {
+            "lewiscowles\\tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
