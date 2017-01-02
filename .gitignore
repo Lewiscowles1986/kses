@@ -17,4 +17,5 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 
 vendor
+reports
 composer.lock
